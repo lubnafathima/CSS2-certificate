@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Project 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      .container {
+        height: 87vh;
+        margin: 3rem;
+        border: 2px solid #0d6ffb;
+        outline: 3.5px solid #334155;
+        outline-offset: 10px;
+        text-align: center;
+        padding: 5rem 0;
+      }
+      .logo {
+        width: 10rem;
+      }
+      .title {
+        font-size: 3rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin: 2rem 0 1rem;
+      }
+      .description {
+        font-size: 1.35rem;
+        font-weight: 400;
+      }
+      .message {
+        font-size: 1.35rem;
+        font-weight: 400;
+        margin: 0 26rem;
+        line-height: 2rem;
+      }
+      .recipient-name {
+        font-family: "Kaushan Script", cursive;
+        font-size: 6rem;
+        font-weight: 400;
+        color: #0d6ffb !important;
+        margin: .5rem 0;
+      }
+      #id {
+        color: aqua;
+      }
+      .team {
+        font-size: 1rem;
+        font-weight: 700;
+        margin-top:1.5rem
+      }
+      p {
+        font-size: 2rem;
+      }
+      .team {
+        font-size: 3rem;
+      }
+      p, h1 {}
+      .description, .recipient-name {}
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <img class="logo" src="./logo.svg" alt="PicMarker Logo" />
+      <h2 class="title">Certificate of Achievement</h2>
+      <p class="description ">This certificate is proudly presented to</p>
+      <h1 class="recipient-name" id="id">Name Surname</h1>
+      <p class="message">
+        We certify that this user has successfully generated a certificate using
+        PikMaker. If you like, you can generate your own certificates using
+        PikMaker.
+      </p>
+      <p class="team">By the PikMaker team</p>
+    </main>
+  </body>
+</html>
